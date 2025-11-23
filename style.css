@@ -16,6 +16,10 @@ html {
   background-color: #4a4a4a;
 }
 
+body{
+cursor: none;
+}
+
 #main {
   height: 100%;
   width: 100%;
@@ -42,8 +46,10 @@ html {
     background-color: #ffffe3;
     border-radius: 50%;
     mix-blend-mode: difference;
-    position: absolute;
-    opacity: 0;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    
+
 }
 
 img {
